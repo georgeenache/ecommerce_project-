@@ -1,0 +1,15 @@
+.navbar_ecommerce {
+    height:10vh;
+    width: 100vw;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar_ecommerce a{
+    color: darkturquoise;
+    font-size:25px;
+    text-decoration: none;
+    margin: 10px
+}

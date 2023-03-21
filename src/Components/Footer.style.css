@@ -1,0 +1,12 @@
+.footer_ecommerce {
+    height:20vh;
+    width:100vw;
+    background-color:aqua;
+}
+.footer_ecommerce a{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+    margin: 10px
+
+}
