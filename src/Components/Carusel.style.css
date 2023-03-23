@@ -1,0 +1,16 @@
+ .carousel_container{
+  
+ }
+
+.carousel.img{
+    width:100vw;
+    height:100px;
+}
+
+.titlu_produs{
+    color: blue;
+}
+
+.descriere_produs {
+    color:red;
+}
