@@ -25,24 +25,24 @@ function Products() {
 			{productList && categoryList ? (
 				<div className='d-flex flex-sm-column flex-lg-row'>
 					<div className='category_list m-4 d-flex flex-column'>
-						<h2>Category List</h2>
+						<h2 className='category_list'>Category List</h2>
 						{categoryList.map((category, index) => {
 							return (
 								<Badge
-									pill
 									className='mt-2'
 									key={"category_" + index}
 									color={
 										category.id === selectedCategory ? "info" : "secondary"
 									}
 									onClick={() => {
-										setSelectedCategory(category.id);
+										setSelectedCategory(category);
 									}}>
 									{category}
 								</Badge>
 							);
 						})}
 						<Button
+							className='mt-2'
 							color='danger'
 							size='sm'
 							onClick={() => {
@@ -52,7 +52,7 @@ function Products() {
 						</Button>
 					</div>
 					<div className='product_list'>
-						<h2>SEARCH</h2>
+						<h2 className='search_products'>SEARCH</h2>
 						<Input
 							className='w-25'
 							value={textInput}

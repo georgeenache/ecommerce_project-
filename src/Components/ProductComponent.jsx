@@ -8,11 +8,11 @@ function ProductComponent({ product }) {
 		if (productsString !== null) {
 			const products = JSON.parse(productsString);
 
-			const existNR = products.find((productElement) => {
+			const existNr = products.find((productElement) => {
 				return productElement.id === product.id;
 			});
 
-			if (existNR === undefined) {
+			if (existNr === undefined) {
 				products.push(product);
 			}
 
@@ -28,16 +28,18 @@ function ProductComponent({ product }) {
 			<Card className='card_style'>
 				<img src={product.image} className='product_image' />
 				<CardBody>
-					<CardTitle tag='h5'>{product.title}</CardTitle>
+					<CardTitle className='product_title' tag='h5'>
+						{product.title}
+					</CardTitle>
 
-					<CardText>{product.category}</CardText>
+					<CardText className='product_category'>{product.category}</CardText>
 
 					<CardText>{product.price}$</CardText>
 
 					<Button
 						color='danger'
 						onClick={() => {
-							addToWishlist;
+							addToWishlist();
 						}}>
 						Add to Wishlist!
 					</Button>

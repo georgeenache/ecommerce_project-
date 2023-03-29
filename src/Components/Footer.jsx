@@ -12,7 +12,7 @@ function Footer() {
 				</h1>
 			</div>
 			<div>
-				<h2>OUTSTOCK</h2>
+				<h2 className='footer_title'>OUTSTOCK</h2>
 			</div>
 			<div></div>
 		</div>

@@ -1,16 +1,23 @@
- .carousel_container{
-  
- }
-
-.carousel.img{
-    width:100vw;
-    height:100px;
-}
-
 .titlu_produs{
-    color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .descriere_produs {
-    color:red;
+    color:white;
+    font-family:'Courier New', Courier, monospace
 }
+.titlu_tricou{
+    font-family: 'Courier New', Courier, monospace;
+    color:black
+}
+.descriere_tricou{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link_produse{
+    text-decoration: none;
+    color:white
+}
+

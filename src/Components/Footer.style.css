@@ -1,16 +1,19 @@
 .footer_ecommerce {
     height:20vh;
     width:100vw;
-background-image: linear-gradient(0deg,
-            hsl(242deg 96% 66%) 14%,
-            hsl(251deg 100% 78%) 61%,
-            hsl(255deg 100% 89%) 76%,
-            hsl(0deg 0% 100%) 100%);
+background-color: black
 }
 .footer_ecommerce a{
-    color:black;
+    color: aqua;
     font-size:20px;
     text-decoration: none;
     margin: 10px
 
+}
+
+.footer_ecommerce
+
+.footer_title{
+    color: aqua;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }

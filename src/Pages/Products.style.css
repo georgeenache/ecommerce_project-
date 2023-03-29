@@ -1,7 +1,18 @@
 .category_list{
     width:20vw;
-    background-color:lightpink;
+ 
 }
 .product_list{
     width:80vw;
+}
+
+.category_list {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.search_products{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.input_search {
+    color:red
 }

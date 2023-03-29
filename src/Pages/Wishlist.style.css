@@ -1,0 +1,16 @@
+.wishlist_page {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wishlist_image{
+ height:400px;
+ width:100vw;
+}
+
+
+
+

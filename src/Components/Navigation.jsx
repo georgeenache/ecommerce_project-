@@ -9,7 +9,7 @@ function Navigation() {
 				<Link to='/products'>Products</Link>
 			</div>
 			<div>
-				<h1>OUTSTOCK</h1>
+				<h1 className='nav_title'>OUTSTOCK</h1>
 			</div>
 			<div>
 				<Link to='/wishlist'>Wishlist</Link>
