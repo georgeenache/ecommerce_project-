@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, Table } from "reactstrap";
 import "./Wishlist.style.css";
+import WishlistImage from "../Images/Wishlist.png";
 
 function Wishlist() {
 	const [wishlistProducts, setWishlistProducts] = useState([]);
@@ -23,7 +24,7 @@ function Wishlist() {
 
 	return (
 		<>
-			<img className='wishlist_image' src />
+			{/*
 			<Table bordered>
 				<thead>
 					<tr>
@@ -84,10 +85,10 @@ function Wishlist() {
 						</td>
 					</tr>
 				</tbody>
-			</Table>
-
+			</Table> */}
+			<img className='wishlist_image' src={WishlistImage} />
 			<div className='wishlist_page'>
-				<h2 className='title_wishlist'>Wishlist page</h2>
+				{/* <h2 className='title_wishlist'>Wishlist page</h2> */}
 				<ul className='tabel_wishlist'>
 					{wishlistProducts.map((product, index) => {
 						return (
